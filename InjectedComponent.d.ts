@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 export declare class InjectedComponent<InjectedProps = {}, Props = {}, State = {}> extends React.Component<Props & {
     ref?: (ref: null | WrappedComponent<any, Props>) => void;
 }, State> {
