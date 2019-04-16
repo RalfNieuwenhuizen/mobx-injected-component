@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "es2015",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "noEmitOnError": false,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": false,
+        "experimentalDecorators": true,
+        "preserveConstEnums": true,
+        "noImplicitReturns": true,
+        "forceConsistentCasingInFileNames": false,
+        "noFallthroughCasesInSwitch": false,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "baseUrl": ".",
+        "allowJs": false,
+        "declaration": true
+    },
+    "compileOnSave": false
+}

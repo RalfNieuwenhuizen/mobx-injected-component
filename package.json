@@ -1,0 +1,33 @@
+{
+  "name": "mobx-injected-component",
+  "version": "0.0.1",
+  "description": "A component that can be used to type your mobx injected component with TypeScript",
+  "main": "InjectedComponent.js",
+  "types": "InjectedComponent.d.ts",
+  "scripts": {
+    "build": "node_modules/typescript/bin/tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RalfNieuwenhuizen/mobx-injected-component.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "mobx",
+    "injected",
+    "typescript"
+  ],
+  "author": "RalfNieuwenhuizen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RalfNieuwenhuizen/mobx-injected-component/issues"
+  },
+  "homepage": "https://github.com/RalfNieuwenhuizen/mobx-injected-component#readme",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "@types/react": "*",
+    "react": "*",
+    "typescript": "^3.4.3"
+  }
+}
